@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* トップ動画 */
+.TopMovie {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.TopMovie video {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+main {
+  width: 50%;
+  margin: auto;
+}
+
+.articleBox {
+  margin-bottom: 20rem;
+}
+
+.articleBox h1 {
+  margin-bottom: 3rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.articleBox rt{
+  font-size: 0.8rem;
+}
+
+.textBox {
+  line-height: 2rem;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.textPicture {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.textPicture img {
+  width: 100%;
+  height: 30rem;
+  border-radius: 0 8rem;
+  object-fit: cover;
+}
+
+.articleBox iframe {
+  height: 50rem;
+  width: 100%;
+}
+
+/* フッター */
+footer {
+  background-color: #F15A22;
+  padding: 5rem;
+  max-width: 100%;
+  margin-top: 20rem;
+}
+
+.parent {
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.parent:after {
+  content: "";
+  display: block;
+}
+
+.child-left {
+  float: left;
+}
+
+.child-left img {
+  width: 10rem;
+}
+
+.child-right {
+  float: left;
+  position: absolute;
+  right: 0;
+  clear: both;
+}
+
+.footerManu {
+  text-align: right;
+}
+
+.footerManu li {
+  display: inline-block;
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  padding-right: 1.5rem;
+  color: white;
+}
+
+.footerManu a {
+  color: white;
+}
+
+.footerManu a:hover {
+  opacity: 0.2;
+}
+
+.footerManu li:last-child {
+  padding-right: 0;
+}
+
+.footerCopylight {
+  padding-top: 5rem;
+}
+
+.footerCopylight p {
+  color: white;
+  letter-spacing: 0.2rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.5rem;
+  text-align: center;
+}
